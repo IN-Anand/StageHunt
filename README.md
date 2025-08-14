@@ -1,0 +1,2 @@
+# StageHunt
+Privacy policy 

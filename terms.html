@@ -1,90 +1,139 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Terms & Conditions - StageHunt</title>
+  <meta charset="utf-8" />
+  <title>StageHunt – Terms & Conditions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Terms & Conditions for the StageHunt mobile application." />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      line-height: 1.6;
-      color: #333;
+    :root{
+      --bg:#0b0c10;
+      --card:#11131a;
+      --text:#eaf0ff;
+      --muted:#a9b2c7;
+      --link:#6aa8ff;
+      --accent:#2b82ff;
+      --border:#1d2230;
     }
-    h1, h2 {
-      color: #0056b3;
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Inter,Arial,sans-serif;
+      background:var(--bg); color:var(--text); line-height:1.65;
     }
-    a {
-      color: #0056b3;
-      text-decoration: none;
+    header{
+      padding:48px 20px; text-align:center; background:linear-gradient(180deg,#0e111a,rgba(14,17,26,0));
+      border-bottom:1px solid var(--border);
     }
-    a:hover {
-      text-decoration: underline;
+    h1{margin:0 0 8px;font-size:clamp(28px,4vw,42px);letter-spacing:.3px}
+    .sub{color:var(--muted);font-size:14px}
+    main{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+    .card{
+      background:var(--card); border:1px solid var(--border); border-radius:18px; padding:24px; margin:18px 0;
+      box-shadow:0 10px 30px rgba(0,0,0,.25)
     }
-    .last-updated {
-      font-size: 14px;
-      color: #777;
-    }
+    h2{margin:0 0 12px;font-size:clamp(20px,2.5vw,26px)}
+    h3{margin:18px 0 8px;font-size:18px}
+    p,li{color:#d7def0}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .pill{display:inline-block; padding:2px 8px; border:1px solid var(--border); border-radius:999px; color:var(--muted); font-size:12px}
+    .toc a{display:block;padding:8px 0;color:#cfe0ff}
+    footer{max-width:960px;margin:0 auto 60px;color:var(--muted);text-align:center}
+    .list-compact li{margin:6px 0}
   </style>
 </head>
 <body>
-  <h1>Terms & Conditions</h1>
-  <p class="last-updated">Last updated: August 2025</p>
+  <header>
+    <h1>Terms & Conditions</h1>
+    <div class="sub">for StageHunt (the “App”) • Last updated: <strong>August 26, 2025</strong></div>
+  </header>
 
-  <p>
-    Welcome to <strong>StageHunt</strong>. By downloading, installing, or using the StageHunt mobile application, you agree to comply with and be bound by the following Terms & Conditions. If you do not agree with these terms, please do not use the app.
-  </p>
+  <main>
+    <div class="card">
+      <h2>Summary</h2>
+      <p>These Terms & Conditions govern your use of StageHunt. By downloading, accessing, or using the App, you agree to these Terms. If you disagree, please do not use StageHunt.</p>
+      <p class="pill">Short version: Use StageHunt responsibly, respect others, and follow the rules below.</p>
+    </div>
 
-  <h2>1. Eligibility</h2>
-  <p>
-    You must be at least 18 years old to use StageHunt. By using the app, you represent that you meet this age requirement.
-  </p>
+    <div class="card">
+      <h2>Quick Links</h2>
+      <nav class="toc">
+        <a href="#eligibility">1. Eligibility</a>
+        <a href="#accounts">2. User Accounts</a>
+        <a href="#bookings">3. Bookings & Payments</a>
+        <a href="#performers">4. Performer Responsibilities</a>
+        <a href="#prohibited">5. Prohibited Activities</a>
+        <a href="#ip">6. Intellectual Property</a>
+        <a href="#termination">7. Termination</a>
+        <a href="#liability">8. Limitation of Liability</a>
+        <a href="#changes">9. Changes to Terms</a>
+        <a href="#contact">10. Contact</a>
+      </nav>
+    </div>
 
-  <h2>2. User Accounts</h2>
-  <p>
-    You are responsible for maintaining the confidentiality of your account and password. StageHunt is not liable for any loss or damage resulting from unauthorized use of your account.
-  </p>
+    <section id="eligibility" class="card">
+      <h2>1. Eligibility</h2>
+      <p>You must be at least 18 years old to use StageHunt. By creating an account, you represent that you meet this requirement.</p>
+    </section>
 
-  <h2>3. Bookings & Payments</h2>
-  <p>
-    StageHunt connects performers (such as singers, comedians, magicians, and dancers) with clients. Payments and bookings made through the app are binding. StageHunt is not responsible for cancellations, disputes, or refunds unless required by law.
-  </p>
+    <section id="accounts" class="card">
+      <h2>2. User Accounts</h2>
+      <p>You are responsible for keeping your login credentials secure. StageHunt is not liable for any unauthorized activity under your account.</p>
+    </section>
 
-  <h2>4. Performer Responsibilities</h2>
-  <p>
-    Performers are solely responsible for the accuracy of their profiles, availability, and performance quality. StageHunt does not guarantee the skills or professionalism of performers.
-  </p>
+    <section id="bookings" class="card">
+      <h2>3. Bookings & Payments</h2>
+      <p>Bookings made through StageHunt are binding agreements between clients and performers. StageHunt facilitates these connections but is not responsible for cancellations, refunds, or disputes unless required by law.</p>
+    </section>
 
-  <h2>5. Prohibited Activities</h2>
-  <p>
-    Users agree not to misuse StageHunt, including but not limited to: posting false information, harassing others, engaging in illegal activities, or attempting to disrupt app functionality.
-  </p>
+    <section id="performers" class="card">
+      <h2>4. Performer Responsibilities</h2>
+      <p>Performers are solely responsible for the accuracy of their profiles, availability, and quality of their acts. StageHunt does not guarantee any performer’s skill, reliability, or performance quality.</p>
+    </section>
 
-  <h2>6. Intellectual Property</h2>
-  <p>
-    All content, trademarks, and materials provided in StageHunt are the property of StageHunt and may not be used without prior written consent.
-  </p>
+    <section id="prohibited" class="card">
+      <h2>5. Prohibited Activities</h2>
+      <ul class="list-compact">
+        <li>Posting false or misleading information.</li>
+        <li>Harassing, threatening, or abusing other users.</li>
+        <li>Engaging in illegal, harmful, or fraudulent activities.</li>
+        <li>Attempting to hack, disrupt, or misuse StageHunt services.</li>
+      </ul>
+    </section>
 
-  <h2>7. Termination</h2>
-  <p>
-    StageHunt reserves the right to suspend or terminate accounts that violate these Terms & Conditions without prior notice.
-  </p>
+    <section id="ip" class="card">
+      <h2>6. Intellectual Property</h2>
+      <p>All logos, trademarks, and content within StageHunt belong to StageHunt. You may not copy, reproduce, or distribute them without permission.</p>
+    </section>
 
-  <h2>8. Limitation of Liability</h2>
-  <p>
-    StageHunt is provided “as is” without warranties of any kind. We are not responsible for any damages, losses, or disputes arising from the use of the app.
-  </p>
+    <section id="termination" class="card">
+      <h2>7. Termination</h2>
+      <p>StageHunt reserves the right to suspend or terminate accounts that violate these Terms without prior notice.</p>
+    </section>
 
-  <h2>9. Changes to Terms</h2>
-  <p>
-    We may update these Terms & Conditions at any time. Continued use of the app after changes means you accept the revised terms.
-  </p>
+    <section id="liability" class="card">
+      <h2>8. Limitation of Liability</h2>
+      <p>StageHunt is provided “as is”. We are not liable for damages, losses, or disputes arising from use of the App.</p>
+    </section>
 
-  <h2>10. Contact Us</h2>
-  <p>
-    If you have questions about these Terms & Conditions, you can contact us at:  
-    <a href="mailto:support@stagehunt.com">support@stagehunt.com</a>
-  </p>
+    <section id="changes" class="card">
+      <h2>9. Changes to Terms</h2>
+      <p>We may update these Terms from time to time. The latest version will always be available here, with the “Last updated” date shown above.</p>
+    </section>
 
+    <section id="contact" class="card">
+      <h2>10. Contact</h2>
+      <p>For questions about these Terms & Conditions, please contact us at: <a href="mailto:TODO-REPLACE-EMAIL">TODO-REPLACE-EMAIL</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div>© <span id="year"></span> StageHunt</div>
+    <div class="muted" style="margin-top:6px">These Terms govern use of StageHunt and supplement, not replace, rights available to you under applicable law.</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

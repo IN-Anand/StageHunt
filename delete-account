@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StageHunt Account Deletion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+        }
+        ol {
+            margin-top: 20px;
+        }
+        li {
+            margin: 10px 0;
+        }
+        p {
+            margin: 15px 0;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .note {
+            background-color: #e9f5ff;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>StageHunt Account Deletion</h1>
+        <p>If you wish to delete your StageHunt account and all associated data, please follow the steps below:</p>
+        <ol>
+            <li>Open the StageHunt app and log in.</li>
+            <li>Go to <strong>Profile → Settings → Delete Account</strong>.</li>
+            <li>Follow the on-screen instructions to confirm account deletion.</li>
+            <li>If you face any issues, contact us at <a href="mailto:support@stagehunt.com">support@stagehunt.com</a>.</li>
+        </ol>
+
+        <div class="note">
+            <p><strong>Data that will be deleted:</strong> Your personal information (name, email, phone number), uploaded images/videos, booking history, and chat messages.</p>
+            <p><strong>Data that may be retained:</strong> Some transactional records may be kept for up to 3 years for legal or compliance purposes.</p>
+        </div>
+
+        <p>For any further assistance, reach out to us at <a href="mailto:support@stagehunt.com">support@stagehunt.com</a>.</p>
+    </div>
+</body>
+</html>

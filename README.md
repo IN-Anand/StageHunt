@@ -40,7 +40,7 @@ StageHunt is a platform to discover and book talented performers like magicians,
 
 ## 📧 Contact
 
-For support or inquiries: [support@stagehunt.com](mailto:support@stagehunt.com)
+For support or inquiries: [contact.stagehunt@gmail.com](mailto:contact.stagehunt@gmail.com)
 
 ---
 
